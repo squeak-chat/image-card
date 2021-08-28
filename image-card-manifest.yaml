@@ -1,0 +1,15 @@
+version: 1
+name: Image Post
+description: Creating post using an image
+author: Squeak-Team <admin@squeak.com>
+squeakUsername: squeak
+repository:
+  url: https://github.com/squeak/image-card.git
+  tagName: v1.0.0
+files:
+  html: source/index.html
+  css: source/styles.css
+  javascript: source/index.js
+parameters:
+  - name: image_name
+    type: image
