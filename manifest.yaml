@@ -3,6 +3,7 @@ name: Image Post
 description: Creating post using an image
 author: Squeak-Team <admin@squeak.com>
 squeakUsername: squeak
+placeholder_title: Title
 repository:
   url: https://github.com/squeak/image-card.git
   version: main
@@ -13,3 +14,4 @@ files:
 parameters:
   - name: image_name
     type: image
+    placeholder: Upload an image...
