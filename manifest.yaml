@@ -4,8 +4,10 @@ description: Creating post using an image
 author: Squeak-Team <admin@squeak.com>
 squeakUsername: squeak
 placeholder_title: Title
+icon: icon.png
+preview: preview.png
 repository:
-  url: https://github.com/squeak/image-card.git
+  url: https://github.com/squeak-chat/image-card.git
   version: main
 files:
   html: source/index.html
